@@ -1,0 +1,68 @@
+[
+    {
+      "indexed": true,
+      "internalType": "bytes32",
+      "name": "studio_id",
+      "type": "bytes32"
+    },
+    {
+      "indexed": true,
+      "internalType": "string",
+      "name": "studioName",
+      "type": "string"
+    },
+    {
+      "indexed": false,
+      "internalType": "string",
+      "name": "thumbnailURI",
+      "type": "string"
+    },
+    {
+      "indexed": false,
+      "internalType": "string",
+      "name": "avatarURI",
+      "type": "string"
+    },
+    {
+      "indexed": false,
+      "internalType": "string",
+      "name": "chain",
+      "type": "string"
+    },
+    {
+      "indexed": false,
+      "internalType": "string",
+      "name": "descriptiveText",
+      "type": "string"
+    },
+    {
+      "indexed": false,
+      "internalType": "string",
+      "name": "creatorAlias",
+      "type": "string"
+    },
+    {
+      "indexed": false,
+      "internalType": "address",
+      "name": "creator",
+      "type": "address"
+    },
+    {
+      "indexed": true,
+      "internalType": "address",
+      "name": "studioAddress",
+      "type": "address"
+    },
+    {
+      "indexed": false,
+      "internalType": "address",
+      "name": "studioTokenAddress",
+      "type": "address"
+    },
+    {
+      "indexed": false,
+      "internalType": "address",
+      "name": "nftAddress",
+      "type": "address"
+    }
+  ]

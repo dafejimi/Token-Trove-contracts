@@ -1,0 +1,244 @@
+{
+  "address": "0xAFCad32235F8e8095A2EA12d9BB93542BE89584C",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "id",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "_alias",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "_avatarURI",
+          "type": "string"
+        }
+      ],
+      "name": "AliasEvent",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "aliases",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "_alias",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_avatarURI",
+          "type": "string"
+        },
+        {
+          "internalType": "bool",
+          "name": "isSet",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "getAlias",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "getAliasURI",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "isAliasSet",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_alias_",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_avatarURI_",
+          "type": "string"
+        }
+      ],
+      "name": "setAlias",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x1239bd0ee6a315d0a74feb0f9115a47459fcb83962c55d88b1f0c6be995e1e3a",
+  "receipt": {
+    "to": null,
+    "from": "0xae6009Dd36eBBE2d36DBEBA64004e31517Cc48BB",
+    "contractAddress": "0xAFCad32235F8e8095A2EA12d9BB93542BE89584C",
+    "transactionIndex": 1,
+    "gasUsed": "486980",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x6171a232af1d328c884307b931818fd498a4b786f2eed9269db15ab4da716189",
+    "transactionHash": "0x1239bd0ee6a315d0a74feb0f9115a47459fcb83962c55d88b1f0c6be995e1e3a",
+    "logs": [],
+    "blockNumber": 28406346,
+    "cumulativeGasUsed": "535047",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "8c23d21770e8bd082f62d5c8edea9f91",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"bytes32\",\"name\":\"id\",\"type\":\"bytes32\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"_alias\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"_avatarURI\",\"type\":\"string\"}],\"name\":\"AliasEvent\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"aliases\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"_alias\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_avatarURI\",\"type\":\"string\"},{\"internalType\":\"bool\",\"name\":\"isSet\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"getAlias\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"getAliasURI\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isAliasSet\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"_alias_\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_avatarURI_\",\"type\":\"string\"}],\"name\":\"setAlias\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/StudioAlias.sol\":\"StudioAlias\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/StudioAlias.sol\":{\"content\":\"// SPDX-License-Identifier: SEE LICENSE IN LICENSE\\r\\npragma solidity ^0.8.20;\\r\\n\\r\\ncontract StudioAlias {\\r\\n\\r\\n    struct Alias {\\r\\n        string _alias;\\r\\n        string _avatarURI;\\r\\n        bool isSet;\\r\\n    }\\r\\n\\r\\n    event AliasEvent (\\r\\n        bytes32 indexed id,\\r\\n        address indexed account,\\r\\n        string _alias,\\r\\n        string _avatarURI\\r\\n    );\\r\\n\\r\\n    mapping (address => Alias) public aliases;\\r\\n    constructor() {\\r\\n        \\r\\n    }\\r\\n\\r\\n    function setAlias(string memory _alias_, string memory _avatarURI_) public {\\r\\n        bytes32 id = keccak256(abi.encodePacked(msg.sender, _alias_, _avatarURI_));\\r\\n\\r\\n        aliases[msg.sender] = Alias(_alias_, _avatarURI_, true);\\r\\n\\r\\n        emit AliasEvent(id, msg.sender, _alias_, _avatarURI_);\\r\\n    }\\r\\n\\r\\n    function getAlias(address account) public view returns (string memory) {\\r\\n        string memory _alias = aliases[account]._alias;\\r\\n\\r\\n        return _alias;\\r\\n    }\\r\\n\\r\\n    function getAliasURI(address account) public view returns (string memory){\\r\\n        string memory _aliasURI = aliases[account]._avatarURI;\\r\\n\\r\\n        return _aliasURI;\\r\\n    }\\r\\n\\r\\n    function isAliasSet(address account) public view returns (bool) {\\r\\n        bool _aliasStatus = aliases[account].isSet;\\r\\n        \\r\\n        if(_aliasStatus) {\\r\\n            return true;\\r\\n        } else {\\r\\n            return false;\\r\\n        }\\r\\n    }\\r\\n}\",\"keccak256\":\"0x79b7be8a3b6940ad01a666da889dfb052f97e32bd8bc57bf64a8d97c68b4c60a\",\"license\":\"SEE LICENSE IN LICENSE\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506107d9806100206000396000f3fe608060405234801561001057600080fd5b50600436106100575760003560e01c8063521d6dbc1461005c5780636438af8514610085578063677f8ac0146100a857806399900d11146100bd578063c3bf2ba4146100d0575b600080fd5b61006f61006a366004610412565b6100f2565b60405161007c9190610492565b60405180910390f35b610098610093366004610412565b6101a3565b604051901515815260200161007c565b6100bb6100b6366004610548565b6101e0565b005b61006f6100cb366004610412565b6102b5565b6100e36100de366004610412565b6102dd565b60405161007c939291906105ac565b6001600160a01b03811660009081526020819052604081206001018054606092919061011d906105e4565b80601f0160208091040260200160405190810160405280929190818152602001828054610149906105e4565b80156101965780601f1061016b57610100808354040283529160200191610196565b820191906000526020600020905b81548152906001019060200180831161017957829003601f168201915b5093979650505050505050565b6001600160a01b03811660009081526020819052604081206002015460ff1680156101d15750600192915050565b50600092915050565b50919050565b60003383836040516020016101f793929190610618565b60408051601f19818403018152828252805160209182012060608401835286845283820186905260018484015233600090815291829052919020825191935090819061024390826106b5565b506020820151600182019061025890826106b5565b50604091820151600291909101805460ff191691151591909117905551339082907f1f71d752a2779b67ee7d15258333a53411a453bef4f43588361ab05324997dfd906102a89087908790610775565b60405180910390a3505050565b6001600160a01b03811660009081526020819052604081208054606092919061011d906105e4565b6000602081905290815260409020805481906102f8906105e4565b80601f0160208091040260200160405190810160405280929190818152602001828054610324906105e4565b80156103715780601f1061034657610100808354040283529160200191610371565b820191906000526020600020905b81548152906001019060200180831161035457829003601f168201915b505050505090806001018054610386906105e4565b80601f01602080910402602001604051908101604052809291908181526020018280546103b2906105e4565b80156103ff5780601f106103d4576101008083540402835291602001916103ff565b820191906000526020600020905b8154815290600101906020018083116103e257829003601f168201915b5050506002909301549192505060ff1683565b60006020828403121561042457600080fd5b81356001600160a01b038116811461043b57600080fd5b9392505050565b60005b8381101561045d578181015183820152602001610445565b50506000910152565b6000815180845261047e816020860160208601610442565b601f01601f19169290920160200192915050565b60208152600061043b6020830184610466565b634e487b7160e01b600052604160045260246000fd5b600082601f8301126104cc57600080fd5b813567ffffffffffffffff808211156104e7576104e76104a5565b604051601f8301601f19908116603f0116810190828211818310171561050f5761050f6104a5565b8160405283815286602085880101111561052857600080fd5b836020870160208301376000602085830101528094505050505092915050565b6000806040838503121561055b57600080fd5b823567ffffffffffffffff8082111561057357600080fd5b61057f868387016104bb565b9350602085013591508082111561059557600080fd5b506105a2858286016104bb565b9150509250929050565b6060815260006105bf6060830186610466565b82810360208401526105d18186610466565b9150508215156040830152949350505050565b600181811c908216806105f857607f821691505b6020821081036101da57634e487b7160e01b600052602260045260246000fd5b6bffffffffffffffffffffffff198460601b16815260008351610642816014850160208801610442565b835190830190610659816014840160208801610442565b0160140195945050505050565b601f8211156106b057600081815260208120601f850160051c8101602086101561068d5750805b601f850160051c820191505b818110156106ac57828155600101610699565b5050505b505050565b815167ffffffffffffffff8111156106cf576106cf6104a5565b6106e3816106dd84546105e4565b84610666565b602080601f83116001811461071857600084156107005750858301515b600019600386901b1c1916600185901b1785556106ac565b600085815260208120601f198616915b8281101561074757888601518255948401946001909101908401610728565b50858210156107655787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b6040815260006107886040830185610466565b828103602084015261079a8185610466565b9594505050505056fea2646970667358221220921d595bfb4c2413b3fd18e0c1cfe71053a16256e217ec8cd2ef59415cbcfee464736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100575760003560e01c8063521d6dbc1461005c5780636438af8514610085578063677f8ac0146100a857806399900d11146100bd578063c3bf2ba4146100d0575b600080fd5b61006f61006a366004610412565b6100f2565b60405161007c9190610492565b60405180910390f35b610098610093366004610412565b6101a3565b604051901515815260200161007c565b6100bb6100b6366004610548565b6101e0565b005b61006f6100cb366004610412565b6102b5565b6100e36100de366004610412565b6102dd565b60405161007c939291906105ac565b6001600160a01b03811660009081526020819052604081206001018054606092919061011d906105e4565b80601f0160208091040260200160405190810160405280929190818152602001828054610149906105e4565b80156101965780601f1061016b57610100808354040283529160200191610196565b820191906000526020600020905b81548152906001019060200180831161017957829003601f168201915b5093979650505050505050565b6001600160a01b03811660009081526020819052604081206002015460ff1680156101d15750600192915050565b50600092915050565b50919050565b60003383836040516020016101f793929190610618565b60408051601f19818403018152828252805160209182012060608401835286845283820186905260018484015233600090815291829052919020825191935090819061024390826106b5565b506020820151600182019061025890826106b5565b50604091820151600291909101805460ff191691151591909117905551339082907f1f71d752a2779b67ee7d15258333a53411a453bef4f43588361ab05324997dfd906102a89087908790610775565b60405180910390a3505050565b6001600160a01b03811660009081526020819052604081208054606092919061011d906105e4565b6000602081905290815260409020805481906102f8906105e4565b80601f0160208091040260200160405190810160405280929190818152602001828054610324906105e4565b80156103715780601f1061034657610100808354040283529160200191610371565b820191906000526020600020905b81548152906001019060200180831161035457829003601f168201915b505050505090806001018054610386906105e4565b80601f01602080910402602001604051908101604052809291908181526020018280546103b2906105e4565b80156103ff5780601f106103d4576101008083540402835291602001916103ff565b820191906000526020600020905b8154815290600101906020018083116103e257829003601f168201915b5050506002909301549192505060ff1683565b60006020828403121561042457600080fd5b81356001600160a01b038116811461043b57600080fd5b9392505050565b60005b8381101561045d578181015183820152602001610445565b50506000910152565b6000815180845261047e816020860160208601610442565b601f01601f19169290920160200192915050565b60208152600061043b6020830184610466565b634e487b7160e01b600052604160045260246000fd5b600082601f8301126104cc57600080fd5b813567ffffffffffffffff808211156104e7576104e76104a5565b604051601f8301601f19908116603f0116810190828211818310171561050f5761050f6104a5565b8160405283815286602085880101111561052857600080fd5b836020870160208301376000602085830101528094505050505092915050565b6000806040838503121561055b57600080fd5b823567ffffffffffffffff8082111561057357600080fd5b61057f868387016104bb565b9350602085013591508082111561059557600080fd5b506105a2858286016104bb565b9150509250929050565b6060815260006105bf6060830186610466565b82810360208401526105d18186610466565b9150508215156040830152949350505050565b600181811c908216806105f857607f821691505b6020821081036101da57634e487b7160e01b600052602260045260246000fd5b6bffffffffffffffffffffffff198460601b16815260008351610642816014850160208801610442565b835190830190610659816014840160208801610442565b0160140195945050505050565b601f8211156106b057600081815260208120601f850160051c8101602086101561068d5750805b601f850160051c820191505b818110156106ac57828155600101610699565b5050505b505050565b815167ffffffffffffffff8111156106cf576106cf6104a5565b6106e3816106dd84546105e4565b84610666565b602080601f83116001811461071857600084156107005750858301515b600019600386901b1c1916600185901b1785556106ac565b600085815260208120601f198616915b8281101561074757888601518255948401946001909101908401610728565b50858210156107655787850151600019600388901b60f8161c191681555b5050505050600190811b01905550565b6040815260006107886040830185610466565b828103602084015261079a8185610466565b9594505050505056fea2646970667358221220921d595bfb4c2413b3fd18e0c1cfe71053a16256e217ec8cd2ef59415cbcfee464736f6c63430008140033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 4836,
+        "contract": "contracts/StudioAlias.sol:StudioAlias",
+        "label": "aliases",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_address,t_struct(Alias)4821_storage)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_mapping(t_address,t_struct(Alias)4821_storage)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => struct StudioAlias.Alias)",
+        "numberOfBytes": "32",
+        "value": "t_struct(Alias)4821_storage"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_struct(Alias)4821_storage": {
+        "encoding": "inplace",
+        "label": "struct StudioAlias.Alias",
+        "members": [
+          {
+            "astId": 4816,
+            "contract": "contracts/StudioAlias.sol:StudioAlias",
+            "label": "_alias",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 4818,
+            "contract": "contracts/StudioAlias.sol:StudioAlias",
+            "label": "_avatarURI",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_string_storage"
+          },
+          {
+            "astId": 4820,
+            "contract": "contracts/StudioAlias.sol:StudioAlias",
+            "label": "isSet",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_bool"
+          }
+        ],
+        "numberOfBytes": "96"
+      }
+    }
+  }
+}
